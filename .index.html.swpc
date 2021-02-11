@@ -23,6 +23,10 @@
 <body>
 
   <h1>Spaghetti Aglio e Olio</h1>
+  
+  <div id="banner">
+    <img src="pasta.jpg" alt="Pasta">
+  </div>
 
   <div id="ingredients">
     <h4>Ingredients</h4>
