@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+li {
+  font-family: Georgia;
+}
+
+#ingredients li { 
+  font-family: Arial;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment li:nth-child(5) {
+  color: green;
+}
+
+#equipment li:nth-child(6) {
+  color: green;
+}
+
+.highlight {
+  background-color: yellow;
+}
