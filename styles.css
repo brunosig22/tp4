@@ -7,6 +7,16 @@ div {
   height: 550px; 
 }
 
+body {
+  margin: 5px;
+  padding: 5px;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: 'Sigmar One', cursive;
   text-decoration: underline;
@@ -20,6 +30,11 @@ h4 {
 
 li {
   font-family: Georgia;
+}
+
+#header {
+  float: none;
+  padding-bottom: 150px;
 }
 
 #ingredients {
@@ -68,6 +83,13 @@ li {
 #notes {
   border-style: solid;
   width: 100%; 
+}
+
+img {
+ max-height: 500px;
+ max-width: 100%;
+ position: absolute;
+ left: 25px; 
 }
 
 @media (orientation: portrait) {
